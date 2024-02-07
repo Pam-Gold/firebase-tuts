@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Heading, Input, Text } from "@chakra-ui/react";
 import "./App.css";
-import { Auth } from "./components/auth";
+import { Auth } from "./components/Auth";
 import { auth, db, storage } from "./config/firebase";
 import { getDocs, addDoc, deleteDoc, updateDoc, doc, collection } from "firebase/firestore";
 import { useEffect, useState } from "react";
